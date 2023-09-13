@@ -1,3 +1,7 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"csharp","items":[{"aliases":[],"name":"csharp"}]}}
+
 #!markdown
 
 # UI Frameworks for .NET
@@ -19,7 +23,10 @@ Supported platforms:
 - Linux (nCurses)
 - Mac OS
 
+[Example Code](code/Console/TerminalGui/)
+
 Demo:
+
 ![Demo](images/terminal.gif)
 
 #!pwsh
@@ -40,6 +47,8 @@ Supported platforms:
 - Windows (Classic Console, Windows Terminal
 - Linux (nCurses)
 - Mac OS
+
+[Example Code](code/Console/CLI/)
 
 #!csharp
 
@@ -84,6 +93,8 @@ app.Run();
 Supported platforms:
 - Windows XP+
 
+[Example Code](code/Desktop/WinForms/)
+
 Example:
 
 ![Demo](images/csharp-winform-form.png)
@@ -98,6 +109,8 @@ Example:
 
 Supported platforms:
 - Windows Vista+
+
+[Example Code](code/Desktop/Wpf/)
 
 Example:
 
@@ -117,6 +130,8 @@ Supported platforms:
 - HoloLens
 - Xbox
 - SurfaceHub
+
+[Example Code](code/Desktop/Uwp/)
 
 Example:
 
@@ -139,6 +154,8 @@ Supported Platforms:
 - Android 5+
 - iOS 10+
 - macOS 10.15+
+
+[Exampe Code](code/MultiPlatform/Maui/)
 
 Example:
 
@@ -166,6 +183,8 @@ Supported platforms:
 - Web (WebAssembly)
 - Tizen
 
+[Example Code](code/MultiPlatform/Uno/)
+
 #!markdown
 
 ### Avalonia platform
@@ -179,6 +198,8 @@ Supported platforms:
 - Linux
 - macOS 10.13+
 
+[Example Code](code/MultiPlatform/Avalonia/)
+
 #!markdown
 
 ## Web
@@ -188,13 +209,18 @@ Supported platforms:
 ### Fully .NET
 
 - [Razor App](https://docs.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-6.0&tabs=visual-studio)
+  - [Example Code](code/Web/Razor/)
 - [Blazor App](https://dotnet.microsoft.com/en-us/learn/aspnet/blazor-tutorial/intro)
-- UNO App Web Assembly
+  - [Example Code](code/Web/Blazor/)
+- [UNO App Web Assembly](https://platform.uno/docs/articles/get-started.html?tabs=windows)
+  - [Example Code](code/MultiPlatform/Uno/)
 
 #!markdown
 
 ### Javascript Front-end + .NET Back-end
 - [Angular + .NET Core](https://docs.microsoft.com/en-us/visualstudio/javascript/tutorial-asp-net-core-with-angular?view=vs-2022)
+  - [Example Code](code/Web/Angular/)
 - [React + .NET Core](https://docs.microsoft.com/en-us/visualstudio/javascript/tutorial-asp-net-core-with-react?view=vs-2022)
+  - [Example Code](code/Web/React/)
 - [Vue + .NET Core](https://docs.microsoft.com/en-us/visualstudio/javascript/tutorial-asp-net-core-with-vue?view=vs-2022)
 - [Vanilla JS/TS + .NET Core](https://docs.microsoft.com/en-us/visualstudio/javascript/tutorial-aspnet-with-typescript?view=vs-2022)
