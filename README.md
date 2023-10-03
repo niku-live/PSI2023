@@ -28,3 +28,4 @@ All code examples should also work without any problems using Visual Studio Code
 - [Lecture 02](Lecture02/README.md)
 - [Lecture 03](Lecture03/README.md)
 - [Lecture 04](Lecture04/README.md)
+- [Lecture 05](Lecture05/README.md)
